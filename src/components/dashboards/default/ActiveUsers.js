@@ -25,11 +25,7 @@ const ActiveUsers = ({ users, end = 5, ...rest }) => {
           <ActiveUser {...rest} key={id} isLast={index === users.length - 1} />
         ))}
       </Card.Body>
-      <CardFooterLink
-        title="All active users"
-        to={paths.followers}
-        size="sm"
-      />
+      <CardFooterLink title="All active users" to={paths.followers} size="sm" />
     </Card>
   );
 };

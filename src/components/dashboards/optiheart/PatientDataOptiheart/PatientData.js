@@ -54,7 +54,8 @@ const Patient = () => {
                         icon="circle"
                         className="text-danger me-2"
                       />
-                      Heart rate target: 86-123 bpm                    </p>
+                      Heart rate target: 86-123 bpm{' '}
+                    </p>
                     <p className="fs-11 text-500 fw-semibold">
                       <FontAwesomeIcon
                         icon="circle"
@@ -79,7 +80,7 @@ const Patient = () => {
           </Row>
         </Card.Body>
       </Tab.Container>
-    </Card >
+    </Card>
   );
 };
 

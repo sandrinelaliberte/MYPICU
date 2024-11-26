@@ -29,8 +29,7 @@ import {
   sessionByBrowser,
   sessionByCountry
 } from 'data/dashboard/analytics';
-import {
-} from 'data/dashboard/projectManagement';
+import {} from 'data/dashboard/projectManagement';
 import { countryData } from 'data/countryData';
 import StorageStatus from 'components/dashboards/default/StorageStatus';
 import SaasActiveUser from 'components/dashboards/optistate/SaasActiveUser';

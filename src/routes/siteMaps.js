@@ -18,8 +18,7 @@ export const dashboardRoutes = {
           name: 'Management',
           to: paths.projectManagement,
           active: true
-        },
-
+        }
       ]
     }
   ]
@@ -36,8 +35,7 @@ export const appRoutes = {
     {
       name: 'Optiheart',
       icon: '',
-      to: paths.optiheart
-      ,
+      to: paths.optiheart,
       active: true
     },
     {
@@ -51,7 +49,7 @@ export const appRoutes = {
       icon: '',
       to: paths.optilungs,
       active: true
-    },
+    }
   ]
 };
 
@@ -788,7 +786,4 @@ export const documentationRoutes = {
   ]
 };
 
-export default [
-  dashboardRoutes,
-  appRoutes,
-];
+export default [dashboardRoutes, appRoutes];

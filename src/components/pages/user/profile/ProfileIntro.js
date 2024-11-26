@@ -11,9 +11,7 @@ const ProfileIntro = () => {
       </Card.Header>
 
       <Card.Body className="text-1000">
-        <p>
-
-        </p>
+        <p></p>
         <Collapse in={collapsed}>
           <div>
             <p>
@@ -23,11 +21,8 @@ const ProfileIntro = () => {
               help organizations increase productivity, and accelerate business
               performance.
             </p>
-            <p>
-            </p>
-            <p>
-
-            </p>
+            <p></p>
+            <p></p>
           </div>
         </Collapse>
       </Card.Body>

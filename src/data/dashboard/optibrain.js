@@ -22,7 +22,7 @@ export const statsData = [
     color: 'info',
     caretColor: 'success',
     data: [90, 160, 150, 120, 230, 155, 220, 240]
-  },
+  }
 ];
 
 export const patientChartData = {
@@ -52,6 +52,6 @@ export const patientChartData = {
         340, 360, 230, 250, 410, 430, 450, 200, 220, 540, 500, 250, 355, 320,
         500, 630, 680, 500, 520, 550, 750, 720, 700, 780, 750
       ]
-    ],
+    ]
   }
 };

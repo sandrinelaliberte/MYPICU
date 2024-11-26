@@ -174,7 +174,7 @@ const SettingsPanel = () => {
               Select a suitable navigation system for your web application
             </p>
             {pathname.includes('landing') ||
-              pathname.includes('authentication') ? (
+            pathname.includes('authentication') ? (
               <p className="text-warning fs-10">
                 You can't update the navigation position on this page
               </p>

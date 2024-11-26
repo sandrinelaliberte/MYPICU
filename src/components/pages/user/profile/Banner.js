@@ -35,15 +35,13 @@ const Banner = () => {
             <h4 className="mb-1">
               Phillipe Jouvet <VerifiedBadge />
             </h4>
-            <h5 className="fs-9 fw-normal">
-              DR, Intensive Care Unit
-            </h5>
+            <h5 className="fs-9 fw-normal">DR, Intensive Care Unit</h5>
             <p className="text-500">CHU Sainte-Justine</p>
             <div className="border-dashed border-bottom my-4 d-lg-none" />
           </Col>
         </Row>
       </ProfileBanner.Body>
-    </ProfileBanner >
+    </ProfileBanner>
   );
 };
 

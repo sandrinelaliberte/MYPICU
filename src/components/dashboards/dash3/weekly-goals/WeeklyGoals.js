@@ -57,8 +57,9 @@ const WeeklyGoals = () => {
             {stats.map((stat, index) => (
               <div
                 key={stat.title.toLowerCase().split(' ').join('-')}
-                className={`${index !== 2 && 'pb-3 mb-3 border-bottom border-200'
-                  }`}
+                className={`${
+                  index !== 2 && 'pb-3 mb-3 border-bottom border-200'
+                }`}
               >
                 <div className="position-relative ps-3">
                   <div

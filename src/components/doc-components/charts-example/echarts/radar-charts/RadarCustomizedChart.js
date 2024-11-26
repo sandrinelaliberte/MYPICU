@@ -32,8 +32,9 @@ function tooltipFormatter(params) {
   const num = params.seriesIndex;
   return `<strong > ${params.name} </strong>
   <div class="fs-10 text-600">
-    <strong >${indicators[params.seriesIndex][0]}</strong>: ${params.value[0]
-    }  <br>
+    <strong >${indicators[params.seriesIndex][0]}</strong>: ${
+    params.value[0]
+  }  <br>
     <strong>${indicators[num][1]}</strong>: ${params.value[1]}  <br>
     <strong>${indicators[num][2]}</strong>: ${params.value[2]}  <br>
     <strong>${indicators[num][3]}</strong>: ${params.value[3]}  <br>

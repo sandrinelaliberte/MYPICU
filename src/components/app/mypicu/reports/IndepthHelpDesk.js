@@ -20,32 +20,33 @@ const InDepthItem = ({ item, status }) => {
             status === 'created'
               ? item.progressbarWidth[0]
               : status === 'resolved'
-                ? item.progressbarWidth[1]
-                : status === 'reopened'
-                  ? item.progressbarWidth[2]
-                  : item.progressbarWidth[3]
+              ? item.progressbarWidth[1]
+              : status === 'reopened'
+              ? item.progressbarWidth[2]
+              : item.progressbarWidth[3]
           }
           className="w-100 animated-progress-bar"
           style={{
             height: '6px',
-            '--falcon-progressbar-width': `${status === 'created'
+            '--falcon-progressbar-width': `${
+              status === 'created'
                 ? item.progressbarWidth[0]
                 : status === 'resolved'
-                  ? item.progressbarWidth[1]
-                  : status === 'reopened'
-                    ? item.progressbarWidth[2]
-                    : item.progressbarWidth[3]
-              }%`
+                ? item.progressbarWidth[1]
+                : status === 'reopened'
+                ? item.progressbarWidth[2]
+                : item.progressbarWidth[3]
+            }%`
           }}
         />
         <p className="mb-0 fs-10 ps-3 fw-semibold text-600">
           {status === 'created'
             ? item.progressbarWidth[0]
             : status === 'resolved'
-              ? item.progressbarWidth[1]
-              : status === 'reopened'
-                ? item.progressbarWidth[2]
-                : item.progressbarWidth[3]}
+            ? item.progressbarWidth[1]
+            : status === 'reopened'
+            ? item.progressbarWidth[2]
+            : item.progressbarWidth[3]}
         </p>
       </Col>
     </Row>

@@ -63,7 +63,7 @@
     "react-range": "^1.10.0",
     "react-router-dom": "^6.26.0",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-select": "^5.8.0",
     "react-simple-star-rating": "^5.1.7",
     "react-simple-typewriter": "^5.0.1",
@@ -115,10 +115,10 @@
     "eslint-plugin-react": "^7.24.0",
     "gh-pages": "^5.0.0",
     "mini-css-extract-plugin": "^0.11.3",
-    "prettier": "^2.3.2",
+    "prettier": "^2.8.8",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
-    "webpack": "^5.96.1",
+    "webpack": "^5.82.1",
     "webpack-cli": "^5.1.1",
     "webpack-fix-style-only-entries": "^0.6.1"
   }

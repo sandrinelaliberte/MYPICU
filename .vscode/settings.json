@@ -1,8 +1,5 @@
 {
-  "cSpell.words": [
-    "chartjs",
-    "getformatter"
-  ],
+  "cSpell.words": ["chartjs", "getformatter"],
   "editor.formatOnSave": true,
   "scss.format.enable": true,
   "scss.format.newlineBetweenRules": true,

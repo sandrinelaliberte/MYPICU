@@ -39,10 +39,11 @@ const Timeline = () => {
                     <FontAwesomeIcon icon={icon} className="fs-8" />
                   </div>
                   <Row
-                    className={` ${index % 2 == 0
+                    className={` ${
+                      index % 2 == 0
                         ? 'timeline-item-start'
                         : 'timeline-item-end'
-                      }`}
+                    }`}
                   >
                     <Col lg={6} className="timeline-item-time">
                       <div>

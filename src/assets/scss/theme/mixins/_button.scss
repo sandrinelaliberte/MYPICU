@@ -2,7 +2,8 @@
 /*                                Falcon Button                               */
 /* -------------------------------------------------------------------------- */
 @mixin falcon-button-variant($color) {
-  &, &.show {
+  &,
+  &.show {
     color: var(--#{$prefix}btn-falcon-#{$color}-color);
     background-color: var(--#{$prefix}btn-falcon-background);
     border-color: var(--#{$prefix}btn-falcon-background);
@@ -24,8 +25,8 @@
     color: var(--#{$prefix}btn-falcon-#{$color}-active-color);
   }
 
-  .btn-check:checked+&,
-  :not(.btn-check)+&:active,
+  .btn-check:checked + &,
+  :not(.btn-check) + &:active,
   &:first-child:active,
   &.active {
     color: var(--#{$prefix}btn-falcon-#{$color}-color);

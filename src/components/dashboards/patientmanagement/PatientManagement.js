@@ -111,7 +111,7 @@ const columns = [
         className: 'text-center text-800'
       }
     }
-  },
+  }
 ];
 
 const RunningProjects = ({ data }) => {

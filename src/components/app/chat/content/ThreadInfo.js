@@ -30,11 +30,11 @@ const ThreadInfo = ({ thread }) => {
   const groupMembers =
     thread.type === 'group'
       ? groups
-        .find(({ id }) => id === thread.groupId)
-        .members.map(member => ({
-          ...users.find(user => user.id === member.userId),
-          designation: member.designation
-        }))
+          .find(({ id }) => id === thread.groupId)
+          .members.map(member => ({
+            ...users.find(user => user.id === member.userId),
+            designation: member.designation
+          }))
       : [];
 
   const [conversationOptions] = useState([

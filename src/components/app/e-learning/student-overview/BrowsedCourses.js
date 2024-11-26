@@ -29,20 +29,21 @@ echarts.use([
 const tooltipFormatter = params => `
     <div>
       <p class='mb-2 text-600'>
-      ${dayjs(params[0].axisValue).isValid()
-    ? dayjs(params[0].axisValue).format('MMMM YYYY')
-    : params[0].axisValue
-  }
+      ${
+        dayjs(params[0].axisValue).isValid()
+          ? dayjs(params[0].axisValue).format('MMMM YYYY')
+          : params[0].axisValue
+      }
       </p>
       ${params
-    .map(
-      ({ seriesName, value, borderColor }) =>
-        `<div class="dot d-inline-block" style="background-color: ${borderColor}"></div>
+        .map(
+          ({ seriesName, value, borderColor }) =>
+            `<div class="dot d-inline-block" style="background-color: ${borderColor}"></div>
             <span class='text-600'>
               ${seriesName} : <strong>${value}</strong>
             </span>`
-    )
-    .join('<br />')}
+        )
+        .join('<br />')}
     </div>`;
 
 const getOptions = getThemeColor => ({

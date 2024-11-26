@@ -9,9 +9,7 @@ import DangerZone from 'components/pages/user/settings/DangerZone';
 import GreetingCard from 'components/dashboards/dash1/greetings/GreetingCard';
 import { Card, Col, Row } from 'react-bootstrap';
 import { notifications } from 'data/dashboard/ecom';
-import {
-  greetingItems,
-} from 'data/dashboard/projectManagement';
+import { greetingItems } from 'data/dashboard/projectManagement';
 import { weather } from 'data/dashboard/default';
 import Greetings from 'components/dashboards/patientmanagement/Greetings';
 import Weather from 'components/dashboards/default/Weather';
@@ -95,7 +93,6 @@ const OthersWidgets = () => {
           <DoMoreCard className="h-100" />
         </Col>
       </Row>
-
 
       <Row className="g-3 mb-3">
         <Col lg={6}>

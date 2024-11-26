@@ -13,8 +13,11 @@ import SubtleBadge from 'components/common/SubtleBadge';
 
 const MediaSearchContent = ({ item }) => {
   return (
-    <Dropdown.Item className="px-x1 py-2" as={Link} to={item.url}>
-    </Dropdown.Item>
+    <Dropdown.Item
+      className="px-x1 py-2"
+      as={Link}
+      to={item.url}
+    ></Dropdown.Item>
   );
 };
 
@@ -134,8 +137,8 @@ const SearchBox = ({ autoCompleteItem }) => {
               {(isIterableArray(suggestedFilters) ||
                 isIterableArray(suggestionFiles) ||
                 isIterableArray(suggestionMembers)) && (
-                  <hr className="text-200 dark__text-900" />
-                )}
+                <hr className="text-200 dark__text-900" />
+              )}
             </>
           )}
 
@@ -164,8 +167,8 @@ const SearchBox = ({ autoCompleteItem }) => {
               ))}
               {(isIterableArray(suggestionFiles) ||
                 isIterableArray(suggestionMembers)) && (
-                  <hr className="text-200 dark__text-900" />
-                )}
+                <hr className="text-200 dark__text-900" />
+              )}
             </>
           )}
 

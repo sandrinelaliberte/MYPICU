@@ -77,7 +77,6 @@ import DarkMode from 'components/documentation/DarkMode';
 import Plugins from 'components/documentation/Plugins';
 import Styling from 'components/documentation/Styling';
 import DesignFile from 'components/documentation/DesignFile';
-import Starter from 'components/pages/Starter';
 import AnimatedIcons from 'components/doc-components/AnimatedIcons';
 import DatePicker from 'components/doc-components/DatePicker';
 import FontAwesome from 'components/doc-components/FontAwesome';
@@ -365,7 +364,7 @@ const routes = [
               {
                 path: paths.patientmanagement,
                 element: <Patientmanagement />
-              },
+              }
             ]
           },
           {

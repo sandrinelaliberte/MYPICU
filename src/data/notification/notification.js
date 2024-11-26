@@ -46,8 +46,7 @@ export const notifications = [
       src: team3,
       size: 'xl'
     },
-    children:
-      '',
+    children: '',
     time: '1h',
     emoji: '',
     className: 'rounded-0 border-x-0 border-300 border-bottom-0',
@@ -202,7 +201,8 @@ export const activities = [
   {
     id: 6,
     avatar: {
-      emoji: '', size: 'xl'
+      emoji: '',
+      size: 'xl'
     },
     children: ``,
     time: '',
@@ -218,16 +218,14 @@ export const activities = [
   {
     id: 8,
     avatar: { emoji: '', size: 'xl' },
-    children:
-      '',
+    children: '',
     time: '',
     to: '#!'
   },
   {
     id: 9,
     avatar: { emoji: '', size: 'xl' },
-    children:
-      '',
+    children: '',
     time: '',
     to: '#!'
   }

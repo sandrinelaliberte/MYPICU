@@ -9,11 +9,12 @@ const Greetings = ({ data }) => {
   return (
     <Card className="h-100">
       <Background className="rounded-soft bg-card" />
-      <Card.Header className="z-1"><h5 className="text-primary">Today’s Recommandations</h5>
-        <h6 className="text-600">Today, you are in charge of PED A, here are some important
-          informations
-          and recommandations to start your day the right way !</h6>
-
+      <Card.Header className="z-1">
+        <h5 className="text-primary">Today’s Recommandations</h5>
+        <h6 className="text-600">
+          Today, you are in charge of PED A, here are some important
+          informations and recommandations to start your day the right way !
+        </h6>
       </Card.Header>
       <Card.Body className="z-1">
         <Row className="g-2 h-100 align-items-end">
@@ -33,7 +34,7 @@ const Greetings = ({ data }) => {
           })}
         </Row>
       </Card.Body>
-    </Card >
+    </Card>
   );
 };
 

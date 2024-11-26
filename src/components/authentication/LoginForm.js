@@ -96,8 +96,7 @@ const LoginForm = ({ hasLabel = false, layout = 'simple' }) => {
           Log in
         </Button>
       </Form.Group>
-
-    </Form >
+    </Form>
   );
 };
 

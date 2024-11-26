@@ -24,7 +24,8 @@ const tooltipFormatter = params => {
   return `
 <div>
     <h6 class="fs-10 text-700 mb-0">
-    <span class="dot me-1 d-inline-block" style="background-color:${params[0].borderColor ? params[0].borderColor : params[0].color
+    <span class="dot me-1 d-inline-block" style="background-color:${
+      params[0].borderColor ? params[0].borderColor : params[0].color
     }"></span>
       ${params[0].name} : ${params[0].value}
     </h6>

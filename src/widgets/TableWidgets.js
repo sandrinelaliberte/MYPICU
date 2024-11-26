@@ -7,9 +7,7 @@ import SharedFiles from 'components/dashboards/default/SharedFiles';
 import TopPages from 'components/dashboards/dash2/top-pages/TopPages';
 import { topPagesTableData, intelligence } from 'data/dashboard/analytics';
 import { files } from 'data/dashboard/default';
-import {
-  runningProjects
-} from 'data/dashboard/projectManagement';
+import { runningProjects } from 'data/dashboard/projectManagement';
 import { transactionSummary } from 'data/dashboard/saas';
 import Experience from 'components/pages/user/Experience';
 import experiences from 'data/experiences';

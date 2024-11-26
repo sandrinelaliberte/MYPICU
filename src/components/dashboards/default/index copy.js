@@ -5,7 +5,7 @@ import AddInfo from './AddInfo';
 import PatientManagement from './PatientManagement';
 import {
   greetingItems,
-  runningProjects,
+  runningProjects
 } from 'data/dashboard/projectManagement';
 
 const ProjectManagement = () => {

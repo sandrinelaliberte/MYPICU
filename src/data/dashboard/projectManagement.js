@@ -1,6 +1,5 @@
 import { v4 as uuid } from 'uuid';
 
-
 export const greetingItems = [
   {
     title: '#9 Patients in Ped A',
@@ -27,7 +26,6 @@ export const greetingItems = [
     color: 'warning'
   }
 ];
-
 
 // ----------- Patients list ------------------------
 
@@ -229,5 +227,5 @@ export const todoList = [
     id: 3,
     task: 'Acess TVL',
     color: 'primary'
-  },
+  }
 ];

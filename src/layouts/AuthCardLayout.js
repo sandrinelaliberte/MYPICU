@@ -20,9 +20,7 @@ const AuthCardLayout = ({ leftSideContent, children, footer = true }) => {
               <Row className="h-100 g-0">
                 <Col md={5} className="text-white text-center bg-card-gradient">
                   <div className="position-relative p-4 pt-md-5 pb-md-7">
-                    <Background
-                      className="bg-auth-card-shape"
-                    />
+                    <Background className="bg-auth-card-shape" />
                     <div
                       className="z-1 position-relative"
                       data-bs-theme="light"
@@ -33,8 +31,7 @@ const AuthCardLayout = ({ leftSideContent, children, footer = true }) => {
                       >
                         MYPICU
                       </Link>
-                      <p className="opacity-75 text-white" >
-                      </p>
+                      <p className="opacity-75 text-white"></p>
                     </div>
                   </div>
                   <div
@@ -76,7 +73,7 @@ const AuthCardLayout = ({ leftSideContent, children, footer = true }) => {
           </Card>
         </Col>
       </Row>
-    </Section >
+    </Section>
   );
 };
 AuthCardLayout.propTypes = {

@@ -2,7 +2,7 @@
 /*                                  Override                                  */
 /* -------------------------------------------------------------------------- */
 @if $enable-dark-mode {
-  @include color-mode(dark, true) { 
+  @include color-mode(dark, true) {
     @each $color, $value in $theme-all-colors {
       .dark__bg-#{$color} {
         background-color: $value !important;
@@ -10,7 +10,7 @@
       .dark__text-#{$color} {
         color: $value !important;
       }
-      .dark__bg-card-dark{
+      .dark__bg-card-dark {
         background-color: $card-bg-dark !important;
       }
     }
@@ -20,7 +20,7 @@
         --#{$prefix}bg-opacity: #{$value} !important;
       }
     }
- 
+
     ::selection {
       background-color: var(--#{$prefix}warning);
     }

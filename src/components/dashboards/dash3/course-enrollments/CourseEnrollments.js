@@ -42,9 +42,11 @@ const getOption = (getThemeColor, data) => ({
     borderWidth: 1,
     transitionDuration: 0,
     formatter: function (params) {
-      return `<div className="fw-semibold">${params.seriesName
-        }</div><div className="fs-10 text-600"><strong>${params.name}:</strong> ${params.value[params.componentIndex + 1]
-        }</div>`;
+      return `<div className="fw-semibold">${
+        params.seriesName
+      }</div><div className="fs-10 text-600"><strong>${params.name}:</strong> ${
+        params.value[params.componentIndex + 1]
+      }</div>`;
     }
   },
   legend: {

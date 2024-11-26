@@ -87,10 +87,12 @@ export default {
   followers: `/${rootPaths.socialRoot}/followers`,
   addProduct: `/${rootPaths.eCommerceRoot}/${rootPaths.productRoot}/add-product`,
   products: productLayout =>
-    `/${rootPaths.eCommerceRoot}/${rootPaths.productRoot}${productLayout ? `/${productLayout}` : ''
+    `/${rootPaths.eCommerceRoot}/${rootPaths.productRoot}${
+      productLayout ? `/${productLayout}` : ''
     }`,
   productDetails: productId =>
-    `/${rootPaths.eCommerceRoot}/${rootPaths.productRoot}/product-details${productId ? `/${productId}` : ''
+    `/${rootPaths.eCommerceRoot}/${rootPaths.productRoot}/product-details${
+      productId ? `/${productId}` : ''
     }`,
   orderList: `/${rootPaths.eCommerceRoot}/orders/order-list`,
   orderDetails: `/${rootPaths.eCommerceRoot}/orders/order-details`,
@@ -102,10 +104,12 @@ export default {
   invoice: `/${rootPaths.eCommerceRoot}/invoice`,
   createCourse: `/${rootPaths.eLearningRoot}/course/create-a-course`,
   courseDetails: courseId =>
-    `/${rootPaths.eLearningRoot}/course/course-details${courseId ? `/${courseId}` : ''
+    `/${rootPaths.eLearningRoot}/course/course-details${
+      courseId ? `/${courseId}` : ''
     }`,
   courses: courseLayout =>
-    `/${rootPaths.eLearningRoot}/course${courseLayout ? `/${courseLayout}` : ''
+    `/${rootPaths.eLearningRoot}/course${
+      courseLayout ? `/${courseLayout}` : ''
     }`,
   studentOverview: `/${rootPaths.eLearningRoot}/student-overview`,
   trainerProfile: `/${rootPaths.eLearningRoot}/trainer-profile`,

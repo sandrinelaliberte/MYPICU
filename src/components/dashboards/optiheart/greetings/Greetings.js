@@ -14,7 +14,9 @@ const Greetings = () => {
                 <h4 className="text-primary fw-bold mb-0">
                   Gagné, Coralie (#5)
                 </h4>
-                <h6 className="text-gray700  fs-10 mb-0">Trauma crânien sévère (Latest Glasgow 3)</h6>
+                <h6 className="text-gray700  fs-10 mb-0">
+                  Trauma crânien sévère (Latest Glasgow 3)
+                </h6>
                 <h6 className="text-gray700  fs-10 mb-0">Âge: 4a 4m 12j</h6>
                 <h6 className="text-gray700  fs-10 mb-0">Poids: 9.09kg</h6>
                 <h6 className="text-gray700  fs-10 mb-0">#JUSIP: J6</h6>
@@ -32,8 +34,8 @@ const Greetings = () => {
             </Row>
           </Col>
         </Row>
-      </Card.Body >
-    </Card >
+      </Card.Body>
+    </Card>
   );
 };
 

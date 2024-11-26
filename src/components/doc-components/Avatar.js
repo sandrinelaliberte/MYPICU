@@ -236,10 +236,7 @@ const Avatars = () => {
         </Col>
         <Col lg={6}>
           <ComponentCard noGuttersBottom>
-            <ComponentCard.Header
-              title="Avatar Group Dense"
-              light={false}
-            />
+            <ComponentCard.Header title="Avatar Group Dense" light={false} />
             <ComponentCard.Body
               className="overflow-auto"
               code={groupDenseCode}

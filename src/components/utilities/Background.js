@@ -177,8 +177,8 @@ const Background = () => {
                         color === 'light'
                           ? 'text-black'
                           : color === 'dark'
-                            ? 'text-light'
-                            : `text-${color}`
+                          ? 'text-light'
+                          : `text-${color}`
                       }
                     >
                       .bg-{color}-subtle

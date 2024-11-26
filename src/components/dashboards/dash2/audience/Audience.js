@@ -18,8 +18,9 @@ const TabTitle = ({ title, value, percentage, progress }) => (
         className={progress ? 'text-success' : 'text-warning'}
       />
       <h6
-        className={`fs-11 mb-0 ms-2 ${progress ? 'text-success' : 'text-warning'
-          }`}
+        className={`fs-11 mb-0 ms-2 ${
+          progress ? 'text-success' : 'text-warning'
+        }`}
       >
         {percentage}
       </h6>
